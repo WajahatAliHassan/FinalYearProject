@@ -1,0 +1,581 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>OptiRankerAi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/themify-icons.css">
+    <link rel="stylesheet" href="../static/css/nice-select.css">
+    <link rel="stylesheet" href="../static/css/flaticon.css">
+    <link rel="stylesheet" href="../static/css/gijgo.css">
+    <link rel="stylesheet" href="../static/css/animate.min.css">
+    <link rel="stylesheet" href="../static/css/slick.css">
+    <link rel="stylesheet" href="../static/css/slicknav.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="../static/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="/">home</a></li>
+                                        <li><a href="#feature">Features</a>
+                                        </li>
+                                        <li><a href="#howitwork">How It Work?</a></li>
+                                        <li><a href="#blog">Blog</a></li>
+                                        <li><a href="#faq">FAQs</a>
+                                        </li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="Appointment">
+                                <div class="book_btn d-none d-lg-block">
+                                    <a  href="{{ url_for('input_keyword') }}">Try It Free</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="shap_big_2 d-none d-lg-block">
+        <img src="../static/img/ilstrator/body_shap_2.png" alt="">
+    </div>
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="shap_img_1 d-none d-lg-block">
+            <img src="../static/img/ilstrator/body_shap_1.png" alt="">
+        </div>
+        <div class="poly_img">
+            <img src="../static/img/ilstrator/seo.png" alt="" height="250px" width="250px" style="opacity:0.3;">
+        </div>
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="slider_text text-center">
+                            <div class="text">
+                                <h3>
+                                    BoostUp your Business & Get <br>
+                                        top of Search Engine
+                                </h3>
+                                <p>At <b>OptiRankerAi</b>, we empower you to dominate the digital landscape with our cutting-edge SEO optimization tool.</p>
+                            <a class="boxed-btn3" href="{{ url_for('input_keyword') }}">Try It Free</a>
+                            </div>
+                            <div class="ilstrator_thumb">
+                                <img src="../static/img/ilstrator/illustration.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+ <!-- features_area  -->
+ <div class="features_area" id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center" style="position: relative; top: 80px;">
+                    <h3>We have some awesome features <br>
+                        to rank your business</h3>
+                        <p>We provide you multiple features that boost your online business to the top 10 search results of the search engine.  </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_1.svg" alt="">
+                    </div>
+                    <h4>Dynamic Meta Tag Wizardry</h4>
+                    <p>Harness the power of AI to create personalized meta tags that elevate your website's SEO game.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_2.svg" alt="">
+                    </div>
+                    <h4>Instant Meta Insights</h4>
+                    <p>Swiftly extract meta tag data from the top 10 websites relevant to your keyword, ensuring up-to-the-minute optimization.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_3.svg" alt="">
+                    </div>
+                    <h4>LLama-Friendly Transformation</h4>
+                    <p>Seamlessly process data with LLamaIndex Framework, translating information into a format perfectly suited for optimization.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_4.png" alt="" height="45px">
+                    </div>
+                    <h4>GPT 3.5 Turbo Optimizer</h4>
+                    <p>Experience the magic of our AI wizard collaborating with GPT 3.5 Turbo, crafting expertly optimized meta tags for unparalleled website performance.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_5.svg" alt="">
+                    </div>
+                    <h4>Effortless Keyword Integration</h4>
+                    <p>Simply input your keyword, and let our intuitive interface guide you through the optimization journey effortlessly.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_feature">
+                    <div class="icon">
+                        <img src="../static/img/svg_icon/feature_6.svg" alt="">
+                    </div>
+                    <h4>User-Friendly Interface</h4>
+                    <p>Navigate through the optimization process seamlessly with our intuitive and user-friendly interface, making meta tag optimization accessible for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ features_area  -->
+
+ <!-- compapy_info  -->
+ <div class="compapy_info">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-md-5">
+                <div class="man_thumb">
+                    <img src="../static/img/ilstrator/man.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-7 col-md-7">
+                <div class="company_info">
+                    <h3>We excel in crafting tailored SEO solutions
+                        with a focus on development expertise.</h3>
+                        <p>At <b>OptiRankerAI</b>, we are a team of passionate individuals dedicated to revolutionizing the way you approach SEO. Our journey began with a shared vision - to empower businesses and individuals with cutting-edge tools that make SEO optimization accessible and efficient.</p>
+
+                    <a href="#" class="boxed-btn3">About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ compapy_info  -->
+
+    <!-- How It Work?  -->
+    <div class="service_area">
+        <div class="container" id="howitwork">
+            <h1 style="text-align: center;">How It Work?</h1>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    
+                    <div class="single_service text-center">
+                        
+                        <div class="icon">
+                            <img src="../static/img/svg_icon/seo_1.svg" alt="">
+                        </div>
+                        <h3>Keyword Input</h3>
+                        <p>Simply input your target keyword into our user-friendly interface to kickstart the optimization process.</p>
+                        <a href="#" class="boxed-btn3-text">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="../static/img/svg_icon/seo_2.svg" alt="">
+                        </div>
+                        <h3>Data Extraction</h3>
+                        <p>Our custom search engine API swiftly extracts meta tag data from the top 10 websites related to your keyword.</p>
+                        <a href="#" class="boxed-btn3-text">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="../static/img/svg_icon/seo_3.svg" alt="">
+                        </div>
+                        <h3>LLMs Integration</h3>
+                        <p>Our powerful GPT 3.5 Turbo model crafts personalized, optimized meta tags for your website.</p>
+                        <a href="#" class="boxed-btn3-text">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--/ How It Work?  -->
+
+    <!-- Blogs  -->
+    <div class="case_study_area case_bg_1" id="blog">
+        <div class="patrn_1 d-none d-lg-block">
+            <img src="../static/img/pattern/patrn_1.png" alt="">
+        </div>
+        <div class="patrn_2 d-none d-lg-block">
+            <img src="../static/img/pattern/patrn.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-95 white_text">
+                        <h3>Our Blogs</h3>
+                        <p>Explore the latest trends, expert tips, case studies, and industry insights in the world of SEO optimization on our blog.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="case_active owl-carousel">
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="https://medium.com/@mattramage/10-effective-drug-rehab-seo-strategies-for-2024-8cec6cf2f7d2" target="_blank">
+                                            <img src="../static/img/case_study/1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="https://medium.com/@mattramage/10-effective-drug-rehab-seo-strategies-for-2024-8cec6cf2f7d2" target="_blank">10 Effective Drug Rehab SEO Strategies for 2024</a></h4>
+                                        <p>Matt Ramage</p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="https://medium.com/@javadoftadeh/local-seo-strategies-for-small-businesses-11211f5082bf" target="_blank">
+                                            <img src="../static/img/case_study/2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="https://medium.com/@javadoftadeh/local-seo-strategies-for-small-businesses-11211f5082bf" target="_blank">Local SEO Strategies for Small Businesses</a></h4>
+                                        <p>Javed Oftadeh</p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="https://medium.com/@shane_barker/seo-2024-trends-and-how-to-prepare-for-them-57a09ca98440" target="_blank">
+                                            <img src="../static/img/case_study/3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="https://medium.com/@shane_barker/seo-2024-trends-and-how-to-prepare-for-them-57a09ca98440" target="_blank">SEO 2024 Trends and How to Prepare for Them</a></h4>
+                                        <p>Shane Barker</p>
+                                    </div>
+                                </div>
+                            <div class="single_study text-center">
+                                    <div class="thumb">
+                                        <a href="https://medium.com/aimonks/whats-hot-in-seo-8-top-trends-to-tap-into-this-year-e03f8147b8ad" target="_blank">
+                                            <img src="../static/img/case_study/1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="subheading">
+                                        <h4><a href="https://medium.com/aimonks/whats-hot-in-seo-8-top-trends-to-tap-into-this-year-e03f8147b8ad" target="_blank">What’s Hot in SEO: 8 TOP Trends to Tap Into This Year</a></h4>
+                                        <p>WebJinee</p>
+                                    </div>
+                                </div>
+                                <div class="single_study text-center">
+                                        <div class="thumb">
+                                            <a href="https://medium.com/llmo-notes/seo-for-googles-helpful-content-update-ee06bc295983" target="_blank">
+                                                <img src="../static/img/case_study/2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="subheading">
+                                            <h4><a href="https://medium.com/llmo-notes/seo-for-googles-helpful-content-update-ee06bc295983" target="_blank">SEO for Google’s Helpful Content Update</a></h4>
+                                            <p>Team Flowing House</p>
+                                        </div>
+                                    </div>
+                                <div class="single_study text-center">
+                                        <div class="thumb">
+                                            <a href="https://medium.com/@akashseo/19-surefire-seo-tips-for-google-ranking-14c9390b96df" target="_blank">
+                                                <img src="../static/img/case_study/3.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="subheading">
+                                            <h4><a href="https://medium.com/@akashseo/19-surefire-seo-tips-for-google-ranking-14c9390b96df" target="_blank">19 Surefire SEO Tips For Google Ranking</a></h4>
+                                            <p>Akash Sarvistava</p>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Blogs  -->
+
+    <!-- accordion_area  -->
+    <div class="accordion_area">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-xl-6 col-lg-6">
+                    <div class="faq_ask">
+                        <h3>Why Choose Us?</h3>
+                            <div id="accordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Boost Your SEO Ranking
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                            <div class="card-body">Enhance your website's visibility with expertly crafted meta tags.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                    Save Time & Effort
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                            <div class="card-body">Our streamlined process ensures quick and efficient results.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Stay Ahead of the Curve
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                            <div class="card-body">Harness the latest AI technology for a competitive edge.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="accordion_thumb">
+                        <img src="../static/img/banner/choose.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--/ accordion_area  -->
+
+    <!-- faq_area  -->
+    <div class="testimonial_area " id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                        <h1 style="color: white;">FAQs</h1>
+                                        <p>Is there customer support available?</p>
+                                            <p>Certainly! Our dedicated support team is ready to assist you with <br> 
+                                                any queries or concerns.</p>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                            <h1 style="color: white;">FAQs</h1>
+                                            <p>What is OptiRankerAI?</p>
+                                            <p>OptiRankerAI is an innovative platform that utilizes AI technology to generate  <br> 
+                                                optimized meta tags for enhanced SEO performance.</p>
+                                        </div>
+                            </div>
+                            <div class="single_carousel">
+                                    <div class="single_testmonial text-center">
+                                        <h1 style="color: white;">FAQs</h1>
+                                            <p>How long does the optimization process take?</p>
+                                            <p>The process is designed for efficiency, and the duration depends on the complexity <br> 
+                                                of your keyword. On average, users experience quick<br>
+                                                and effective results. </p>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /faq_area  -->
+
+    <footer class="footer" id="contact">
+            <div class=" container">
+                <div class="pro_border">
+                        <div class="row">
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="lets_projects">
+                                        <h3>Let's Connect! Reach Out to OptiRankerAI <a href="mailto:wajim072@gmail.com">Mail Us</a> </h3>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="phone_number">
+                                        <h3>+92-3455566675</h3>
+                                        <a href="mailto:wajim072@gmail.com">support@optirankerai.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="footer_widget">
+                                <div class="footer_logo">
+                                    <a href="#">
+                                        <p style="color: white; font-size: large;"><u>OptiRankerAI</u></p>
+                                    </a>
+                                </div>
+                                <p>
+                                    We strive to respond promptly and ensure your experience with OptiRankerAI is seamless. Your feedback is valuable to us!
+                                </p>
+                                <div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-twitter-alt"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-lg-3">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        Term of Service 
+                                </h3>
+                                <ul>
+                                    <li><a href="#">Acceptance of Terms</a></li>
+                                    <li><a href="#">User Responsibilities</a></li>
+                                    <li><a href="#">Privacy and Data Security</a></li>
+                                    <li><a href="#">Limitations of Liability</a></li>
+                                </ul>
+    
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-lg-2">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        Useful Links
+                                </h3>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#contact"> Contact</a></li>
+                                    <li><a href="#howitwork">How It Work?</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 offset-xl-1 col-md-6 col-lg-4">
+                                <div class="footer_widget">
+                                        <h3 class="footer_title">
+                                                Subscribe
+                                        </h3>
+                                        <form action="#" class="newsletter_form">
+                                            <input type="text" placeholder="Enter your mail">
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+                                        <p class="newsletter_text">Subscribe our monthly newsletter to get more insights about Search Engine Optimization and industry Trends.</p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right_text">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="copy_right text-center">
+<!--Copyright box-->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Right Reserved By OptiRankerAi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- JS here -->
+    <script src="../static/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../static/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/isotope.pkgd.min.js"></script>
+    <script src="../static/js/waypoints.min.js"></script>
+    <script src="../static/js/jquery.counterup.min.js"></script>
+    <script src="../static/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../static/js/scrollIt.js"></script>
+    <script src="../static/js/jquery.scrollUp.min.js"></script>
+    <script src="../static/js/wow.min.js"></script>
+    <script src="../static/js/nice-select.min.js"></script>
+    <script src="../static/js/jquery.slicknav.min.js"></script>
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/gijgo.min.js"></script>
+
+
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
